@@ -1,0 +1,27 @@
+{
+  "name": "egg-login",
+  "version": "1.0.0",
+  "description": "使用eggjs写的登录小demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsflow/egg-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsflow/egg-login/issues"
+  },
+  "homepage": "https://github.com/tsflow/egg-login#readme",
+  "dependencies": {
+    "egg": "^2.22.2",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
+}

@@ -1,0 +1,30 @@
+2019-06-17 23:32:21,233 INFO 12568 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-17 23:32:21,233 INFO 12568 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-17 23:32:21,233 INFO 12568 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-17 23:32:21,551 INFO 13264 [Timer] D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17858452ms at 2019-06-18 04:30:00.003
+2019-06-17 23:32:21,552 INFO 13264 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1658449ms at 2019-06-18 00:00:00.001
+2019-06-17 23:32:21,552 INFO 13264 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1659448ms at 2019-06-18 00:00:01.000
+2019-06-17 23:46:51,869 INFO 4480 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-17 23:46:51,869 INFO 4480 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-17 23:46:51,869 INFO 4480 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-17 23:46:51,967 INFO 8492 [Timer] D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 16988036ms at 2019-06-18 04:30:00.003
+2019-06-17 23:46:51,967 INFO 8492 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 788033ms at 2019-06-18 00:00:00.000
+2019-06-17 23:46:51,967 INFO 8492 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 789033ms at 2019-06-18 00:00:01.000
+2019-06-17 23:47:25,824 INFO 3204 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-17 23:47:25,824 INFO 3204 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-17 23:47:25,824 INFO 3204 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-17 23:47:28,099 INFO 1552 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-17 23:47:28,099 INFO 1552 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-17 23:47:28,099 INFO 1552 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-17 23:56:40,325 INFO 10432 [Timer] D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 16399677ms at 2019-06-18 04:30:00.002
+2019-06-17 23:56:40,325 INFO 10432 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 199675ms at 2019-06-18 00:00:00.000
+2019-06-17 23:56:40,326 INFO 10432 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 200675ms at 2019-06-18 00:00:01.001
+2019-06-17 23:56:40,228 INFO 3076 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-17 23:56:40,228 INFO 3076 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-17 23:56:40,228 INFO 3076 [egg-schedule]: register schedule D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-18 00:00:00,003 INFO 3076 [Job#15607872000026168459173491001] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2019-06-18 00:00:00,008 INFO 3076 [Job#15607872000026168459173491001] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 4ms
+2019-06-18 00:00:00,005 INFO 10432 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399998ms at 2019-06-19 00:00:00.003
+2019-06-18 00:00:01,003 INFO 3076 [Job#15607872010026168469170687001] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-06-18 00:00:01,010 INFO 3076 [Job#15607872010026168469170687001] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 7ms
+2019-06-18 00:00:01,008 INFO 10432 [Timer] D:\node\egg-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399998ms at 2019-06-19 00:00:01.006

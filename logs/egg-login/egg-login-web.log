@@ -1,0 +1,255 @@
+2019-06-18 00:01:56,139 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:01:58,430 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:38,271 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:38,878 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:39,288 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:39,523 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:39,749 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:39,916 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:40,072 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:40,248 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:40,663 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:40,829 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:41,877 ERROR 3076 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:46,366 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:47,111 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:47,546 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
+2019-06-18 00:02:47,702 ERROR 3076 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.user.login is not a function
+    at HomeController.index (D:\node\egg-login\app\controller\home.js:5:33)
+    at Object.callFn (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\node\egg-login\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\node\egg-login\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\node\egg-login\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3076
+hostname: DESKTOP-5MHVHMM
+
