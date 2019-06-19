@@ -253,3 +253,48 @@ hostname: DESKTOP-5MHVHMM
 pid: 3076
 hostname: DESKTOP-5MHVHMM
 
+2019-06-18 11:48:43,917 ERROR 8172 [-/127.0.0.1/-/296ms GET /] nodejs.TypeError: ctx.helper.showName is not a function
+    at HomeController.index (G:\nodejs\egg-login\app\controller\home.js:9:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8172
+hostname: HHB-PC
+
+2019-06-18 11:49:37,261 ERROR 4060 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: ctx.helper.showName is not a function
+    at HomeController.index (G:\nodejs\egg-login\app\controller\home.js:9:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4060
+hostname: HHB-PC
+
+2019-06-18 11:50:43,665 ERROR 4060 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: ctx.helper.showName is not a function
+    at HomeController.index (G:\nodejs\egg-login\app\controller\home.js:9:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4060
+hostname: HHB-PC
+
+2019-06-19 23:16:45,221 ERROR 3192 [-/127.0.0.1/-/102ms GET /] nodejs.ReferenceError: token is not defined
+    at Object.isRequestFromWeChat (G:\nodejs\egg-login\app\wechat\util.js:10:21)
+    at G:\nodejs\egg-login\app\middleware\wechat.js:6:12
+    at dispatch (G:\nodejs\egg-login\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at G:\nodejs\egg-login\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (G:\nodejs\egg-login\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (G:\nodejs\egg-login\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (G:\nodejs\egg-login\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (G:\nodejs\egg-login\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (G:\nodejs\egg-login\node_modules\_egg-security@2.5.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (G:\nodejs\egg-login\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3192
+hostname: HHB-PC
+
+2019-06-19 23:39:13,593 ERROR 6964 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6964
+hostname: HHB-PC
+

@@ -86,26 +86,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\node\\egg-login\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "G:\\nodejs\\egg-login\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\node\\egg-login\\node_modules\\egg-session\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-security\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-development\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-static\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\egg-view\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\locales",
-        "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\locales",
-        "D:\\node\\egg-login\\config\\locales"
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-session@3.1.0@egg-session\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-security@2.5.0@egg-security\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-multipart@2.7.1@egg-multipart\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-development@2.4.3@egg-development\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\locales",
+        "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\locales",
+        "G:\\nodejs\\egg-login\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -116,8 +116,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\node\\egg-login\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\node\\egg-login\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "G:\\nodejs\\egg-login\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "G:\\nodejs\\egg-login\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -140,7 +140,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-login",
+      "tmpdir": "C:\\Users\\HHB\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-login",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -163,7 +163,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\node\\egg-login\\app\\public",
+      "dir": "G:\\nodejs\\egg-login\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -171,13 +171,20 @@
     },
     "view": {
       "root": [
-        "D:\\node\\egg-login\\app\\view"
+        "G:\\nodejs\\egg-login\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
         ".tpl": "nunjucks"
+      },
+      "message": "默认环境",
+      "middleware": [
+        "wechat"
+      ],
+      "wechat": {
+        "threshold": 1024
       }
     },
     "nunjucks": {
@@ -216,15 +223,16 @@
       "homepage": "https://github.com/tsflow/egg-login#readme",
       "dependencies": {
         "egg": "^2.22.2",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "sha1": "^1.1.1"
       },
       "devDependencies": {
         "egg-bin": "^4.13.0"
       }
     },
-    "baseDir": "D:\\node\\egg-login",
-    "HOME": "C:\\Users\\Administrator",
-    "rundir": "D:\\node\\egg-login\\run",
+    "baseDir": "G:\\nodejs\\egg-login",
+    "HOME": "C:\\Users\\HHB",
+    "rundir": "G:\\nodejs\\egg-login\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -255,7 +263,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\node\\egg-login\\logs\\egg-login",
+      "dir": "G:\\nodejs\\egg-login\\logs\\egg-login",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -314,7 +322,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
+        "port": 3001,
         "hostname": ""
       }
     },
@@ -323,9 +331,17 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [
+      "wechat"
+    ],
+    "wechat": {
+      "appID": "wx56ba33093882cc0a",
+      "appsecret": "<String len: 32>",
+      "token": "hhb"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -347,8 +363,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-session",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -360,8 +376,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-security",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-security@2.5.0@egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -373,8 +389,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-jsonp",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -386,8 +402,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-onerror",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -397,8 +413,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-i18n",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -408,8 +424,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-watcher",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -419,8 +435,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-schedule",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -432,8 +448,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-multipart",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-multipart@2.7.1@egg-multipart",
       "version": "2.7.1"
     },
     "development": {
@@ -447,8 +463,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-development",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -460,8 +476,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-logrotator",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -471,8 +487,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-static",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -482,8 +498,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\egg-view",
+      "from": "G:\\nodejs\\egg-login\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -496,8 +512,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\node\\egg-login\\config\\plugin.js",
-      "path": "D:\\node\\egg-login\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "G:\\nodejs\\egg-login\\config\\plugin.js",
+      "path": "G:\\nodejs\\egg-login\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
